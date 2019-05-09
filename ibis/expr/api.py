@@ -2716,6 +2716,7 @@ _date_add = _binop_expr('__add__', ops.DateAdd)
 _date_value_methods = dict(
     strftime=_timestamp_strftime,
     year=_extract_field('year', ops.ExtractYear),
+    quarter=_extract_field('quarter', ops.ExtractQuarter),
     month=_extract_field('month', ops.ExtractMonth),
     day=_extract_field('day', ops.ExtractDay),
     day_of_week=_day_of_week,
