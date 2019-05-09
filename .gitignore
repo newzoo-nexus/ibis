@@ -28,6 +28,9 @@ MANIFEST
 *.cmake
 # Python files
 
+# virtual environments
+/venv
+
 # setup.py working directory
 build
 # setup.py dist directory

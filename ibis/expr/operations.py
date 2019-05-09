@@ -2557,6 +2557,10 @@ class ExtractYear(ExtractDateField):
     pass
 
 
+class ExtractQuarter(ExtractDateField):
+    pass
+
+
 class ExtractMonth(ExtractDateField):
     pass
 

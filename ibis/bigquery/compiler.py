@@ -337,6 +337,7 @@ _operation_registry = impala_compiler._operation_registry.copy()
 _operation_registry.update(
     {
         ops.ExtractYear: _extract_field('year'),
+        ops.ExtractQuarter: _extract_field('quarter'),
         ops.ExtractMonth: _extract_field('month'),
         ops.ExtractDay: _extract_field('day'),
         ops.ExtractHour: _extract_field('hour'),
